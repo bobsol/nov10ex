@@ -1,0 +1,44 @@
+ html,body {
+     margin: 0;
+     padding: 0;
+     height: 100%;
+ }
+div {
+    float: left;
+}
+
+#nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: .5;
+    z-index: 2;
+}
+
+/* from http://www.w3schools.com/css/css_navbar.asp */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #777;
+}
+
+li {
+    float: left;
+}
+
+#last { /* li */
+    float: right;
+    cursor: pointer;
+}
+
+li a, #last {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 800;
+}

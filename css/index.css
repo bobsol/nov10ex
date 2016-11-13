@@ -1,0 +1,25 @@
+ div {
+     width: 50%;
+     height:50%;
+     padding: 0;
+     margin: 0;
+ }
+ #red {
+     background-color: red;
+ }
+#blue {
+     background-color: blue;
+ }
+#orange {
+     background-color: orange;
+ }
+#yellow {
+     background-color: yellow;
+ }
+#gray {
+    background-color: gray;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    display: none;
+}
