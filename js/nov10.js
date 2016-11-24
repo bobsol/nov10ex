@@ -4,7 +4,6 @@ http://stackoverflow.com/questions/19074171/how-to-toggle-a-divs-visibility-by-u
 but didn't end up doing just this...
 */
 
-var myButton = document.getElementById("last");
 document.getElementById("last").onclick = function(){
     var gray = document.getElementById("gray");
     var green = document.getElementById("green");
