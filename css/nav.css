@@ -12,7 +12,6 @@ div {
     top: 0;
     width: 100%;
     height: auto;
-    /* opacity: .5; */
     z-index: 2;
 }
 
@@ -22,7 +21,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-   background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.3);
 }
 
 li {
